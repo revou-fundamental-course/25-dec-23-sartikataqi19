@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    min-width: 30px;
+    padding: 8px;
+}
+
+h2 {
+    text-align: center;
+    background-color: cornflowerblue;
+    min-width: 30px;
+    padding: 10px;
+
+div {
+    justify-content: center;
+    display: flex;  
+}
