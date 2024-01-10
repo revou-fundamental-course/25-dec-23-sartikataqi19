@@ -7,12 +7,12 @@ function hitungluas() {
     document.getElementById("luas").value=luas;
 }
 
-function hitungKeliling () {
-    let A= document.getElementById("sisi a").value;
-    let B= document.getElementById("sisi b").value;
-    let C= document.getElementsByClassName("sisi c").value;
+function hitungkeliling() {
+    let sisiA = document.getElementById("sisi a").value;
+    let sisiB = document.getElementById("sisi b").value;
+    let sisiC = document.getElementById("sisi c"). value;
 
-    let keliling = parseInt(A) + parseInt(B) + parseInt(C);
+    let keliling = parseInt(sisiA) + parseInt(sisiB) + parseInt(sisiC)
     console.log(keliling)
     document.getElementById("keliling").value=keliling;
 }
